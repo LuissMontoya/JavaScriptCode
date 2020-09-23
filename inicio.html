@@ -90,6 +90,29 @@
 
       console.log(objeto);
       console.log(colores);
+
+      console.log("********** {String }*************");
+      let nombren = "Fernando";
+      let apellido = "Muñoz";
+      let saludo = new String("Hola Mundillo");
+
+      let lorem =
+        "   Los elefantes retirados de Ringling Bros. y Barnum & Bailey Circus se mudarán a una nueva casa espaciosa en un centro de conservación de Florida el próximo año, concluyendo un viaje que comenzó en 2015 cuando la empresa matriz del circo, Feld Entertainment, anunció por primera vez que se retiraría gradualmente. su uso de la actuación de los elefantes.";
+
+      console.log(nombren, apellido, saludo);
+      console.log(
+        nombren.length,
+        apellido.length,
+        saludo.length,
+        nombren.toLocaleUpperCase(),
+        apellido.toLocaleLowerCase(),
+        lorem.includes('centro'),
+        lorem.includes('carro'),
+        lorem,
+        lorem.trim(),
+        lorem.split(" "),//convertir cadena de texto a arreglo
+        lorem.split(",")
+        );
     </script>
   </body>
 </html>
