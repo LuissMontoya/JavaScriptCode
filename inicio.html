@@ -44,7 +44,7 @@
       crossorigin="anonymous"
     ></script>
     <script>
-     console.log("********** {VAR}*************");
+      console.log("********** {VAR}*************");
       var hola = "Hola mundo";
       let hello = "Hello world";
       console.log(hola);
@@ -69,6 +69,27 @@
         console.log("Variable música dentro del bloque:", musica2);
       }
       console.log("Variable música después del bloque:", musica2);
+
+      console.log("********** {LET}*************");
+      const PI = 3.1416;
+      console.log(PI);
+      //PI = 3.15 //no cambia al valor!
+      //let objeto = {
+      const objeto = {
+        nombre: "Luis",
+        edad: 21,
+      };
+      //let colores=["Rojo","Azul","Verde"]
+      const colores = ["Rojo", "Azul", "Verde"];
+
+      console.log(objeto);
+      console.log(colores);
+
+      objeto.correo = "luisP@gmail.com";
+      colores.push("Rosado");
+
+      console.log(objeto);
+      console.log(colores);
     </script>
   </body>
 </html>
