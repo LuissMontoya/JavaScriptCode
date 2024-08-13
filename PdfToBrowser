@@ -1,3 +1,4 @@
 let pdfB64 = "";
 let prefix = "data:application/pdf;" + "base64, ";
+console.log(prefix + pdfB64);
 window.open(prefix + pdfB64);
